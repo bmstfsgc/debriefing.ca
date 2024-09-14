@@ -1,0 +1,49 @@
+
+.carousal > div {
+
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:col;
+}
+.carousalcontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousalcontainer > div {
+    display: flex;
+    margin: 0;
+  }
+  
+  .carousalcontainer > div > * {
+    margin-right: 1rem;
+  }
+
+  .carousalcontainer > div {
+    /* ... */
+    animation: slide-right-to-left 3s ease-in;
+  }
+  
+  @keyframes slide-right-to-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .carousalarrow
+  {
+    color:black;
+  }
+  
+  .carousalarrow:hover
+  {
+    color:white !important;
+    background:'red';
+  }

@@ -1,0 +1,40 @@
+.bannercontainer {
+  
+  overflow: hidden;
+  height:500px;
+  width:inherit;
+}
+
+.bannercontainer > div {
+  display: flex;
+  
+}
+
+
+  .bannercontainer > div.show {
+    /* ... */
+    animation: slide-right-to-left 2s ease-in ;
+    
+  }
+  
+  @keyframes slide-right-to-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  
+
+  .bannerarrow
+  {
+    color:black;
+  }
+  
+  .bannerarrow:hover
+  {
+    color:white !important;
+    background:'red';
+  }

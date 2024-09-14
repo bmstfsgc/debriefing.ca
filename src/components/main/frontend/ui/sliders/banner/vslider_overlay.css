@@ -1,0 +1,177 @@
+
+
+.slider {
+	position: relative;
+	width: 100%;
+	min-height:200px;
+	overflow: hidden
+}
+
+.slider a.previousButton, .slider a.nextButton {
+	font-size: 22px;
+	line-height: 0;
+	display: block;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	z-index: 1;
+	color: #333;
+	padding: 10px
+}
+
+.slider a.previousButton:not(.disabled):hover, .slider a.nextButton:not(.disabled):hover {
+	-webkit-transform: translateX(-50%) scale(1.25);
+	        transform: translateX(-50%) scale(1.25);
+	cursor: pointer;
+}
+
+.slider a.previousButton {
+	top: 20px;
+}
+
+.slider a.nextButton {
+	bottom: 20px;
+}
+
+
+
+
+
+.slide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+    display:flex;
+}
+
+.slide.hidden {
+	visibility: hidden;
+}
+
+.slide.previous {
+	top: 0%;
+	visibility: hidden;
+}
+
+.slide.current {
+	top: 0;
+	visibility: visible;	
+}
+
+.slide.next {
+	top: 0%;
+	visibility: hidden;
+}
+
+
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+
+@keyframes fadeOut {
+	0% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+
+/*
+.slide.animateIn,
+	.slide.animateOut {
+	
+}
+*/
+
+
+.slide.animateIn.previous,
+		.slide.animateIn.next {
+	top: 0;
+	visibility: visible;
+	animation: fadeIn 2s ease-in forwards ;		
+}
+
+.slide.animateOut.previous {
+	top: 0%;
+	visibility: visible !important;	
+    animation: fadeOut 2s ease-out forwards ;		
+}
+
+.slide.animateOut.next {
+	top: 0%;
+	visibility: visible !important;	
+
+	animation: fadeOut 2s ease-out forwards ;		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-tooltip {
+	position: absolute;
+	overflow: hidden;
+    display: flex;
+	z-index:2;
+	
+}
+
+
+
+.slide-tooltip.hidden {
+	visibility: hidden;
+}
+
+.slide-tooltip.previous {
+	left: -100%;
+	bottom:5%;
+}	
+
+.slide-tooltip.current {
+	left: 2%;
+	bottom:5%;
+}
+
+.slide-tooltip.next {
+	left: -100%;
+	bottom:5%;
+}
+
+.slide-tooltip.animateIn,
+	.slide-tooltip.animateOut {
+	-webkit-transition: all 2s ease;
+	transition: all 2s ease;
+}
+
+.slide-tooltip.animateIn.previous,
+		.slide-tooltip.animateIn.next {
+	left: 2%;
+	bottom:5%;
+	visibility: visible;
+}
+
+.slide-tooltip.animateOut.previous {
+	left: -100%;
+	bottom:5%;
+}
+
+.slide-tooltip.animateOut.next {
+	left: -100%;
+	bottom:5%;
+}
+

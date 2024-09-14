@@ -1,0 +1,115 @@
+  /* since nested groupes are not supported we have to use 
+     regular css for the nested dropdowns 
+  */
+
+
+#newburger {
+    /*   transform: translatex(100%) scale(0); */
+       animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+       animation-duration: 400ms; /* don't forget to set a duration! */
+   
+
+   
+}
+
+   
+#burger {
+ /*   transform: translatex(100%) scale(0); */
+    animation: fadeOutLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
+    display:none;
+
+}
+
+
+#burger:target {
+   
+   
+   display: block;
+   
+   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 300ms; /* don't forget to set a duration! */
+
+   
+}
+
+
+
+
+
+
+
+  /* Below styles fake what can be achieved with the tailwind config
+     you need to add the group-hover variant to scale and define your custom
+     min width style.
+  	 See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
+  	 for implementation with config file
+  */
+
+
+  
+/*
+  div >ul.menulevel-0                 { transform: translatex(0%) scale(0); top:0px; transition: all 1s; }
+  div :hover>ul.menulevel-0           { transform: translatex(1%) scale(1); top:60px;}
+  div > button svg                    { transform: rotate(-90deg) }
+  div :hover > button svg             { transform: rotate(-270deg) }
+
+
+
+  li>ul                 { transform: translatex(100%) scale(0); }
+  li:hover>ul           { transform: translatex(101%) scale(1); top:0%;}
+  li > button svg       { transform: rotate(-90deg) }
+  li:hover > button svg { transform: rotate(-270deg) }
+
+
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
+
+  */
+
+
+  #flyoutmenu >ul.menulevel-0                 { transform: translatex(0%) scale(0); top:0px; transition: all 1s; }
+  #flyoutmenu :hover>ul.menulevel-0           { transform: translatex(1%) scale(1); top:60px;}
+  #flyoutmenu > button svg                    { transform: rotate(-90deg) }
+  #flyoutmenu :hover > button svg             { transform: rotate(-270deg) }  
+  
+  
+  #flyoutmenu   li >ul                { transform: translatex(100%) scale(0); }
+  #flyoutmenu   li:hover>ul           { transform: translatex(101%) scale(1); top:0%;}
+  #flyoutmenu   li > button svg       { transform: rotate(-90deg) }
+  #flyoutmenu   li:hover > button svg { transform: rotate(-270deg) }
+  
+  
+  #flyoutmenu  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  #flyoutmenu  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  #flyoutmenu  .scale-0 { transform: scale(0) }
+  #flyoutmenu  .min-w-32 { min-width: 8rem }
+
+
+
+
+#leftaccordionmenu >ul.menulevel-0:active         { transform: translatex(1%) scale(1);top:60px;}
+
+#leftaccordionmenu >ul.menulevel-0                 { transform: translatex(1%) scale(1); top:0px; transition: all 1s; }
+
+
+#leftaccordionmenu :hover>ul.menulevel-0           { transform: translatex(1%) scale(1);top:60px;}
+
+
+#leftaccordionmenu > button svg                    { transform: rotate(-90deg) }
+#leftaccordionmenu :hover > button svg             { transform: rotate(270deg) }  
+
+
+#leftaccordionmenu  li >ul                { transform: translatex(0%) scale(0); }
+#leftaccordionmenu  li:hover>ul           { transform: translatex(1%) scale(1); top:0%;}
+#leftaccordionmenu  li > button svg       { transform: rotate(-90deg) }
+#leftaccordionmenu  li:hover > button svg { transform: rotate(-270deg) }
+
+
+#leftaccordionmenu .group:hover .group-hover\:scale-100 {  transform: scale(1)}
+#leftaccordionmenu .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+#leftaccordionmenu .scale-0 { transform: scale(0) }
+#leftaccordionmenu .min-w-32 { min-width: 8rem }

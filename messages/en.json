@@ -1,0 +1,136 @@
+{
+    "pages": {
+          "home":
+            {
+                        "banner": 
+                        {
+                                        "title":"Violent Incident Debriefing Training Module",
+                                        "content":
+                                        {
+                                                                "body":
+                                                                {
+                                                                    "length":"7",
+                                                                    "0":"<p>Debriefing is an essential step to assist in rebuilding a positive relationship between staff and students and to deal with the trauma experienced by students and staff after a critical incident. It is an effective way to assess the situation objectively and plan appropriate next steps for behaviour management and programming. Debriefing is a valuable tool in reducing the likelihood of future critical incidents in the workplace.</p>",
+                                                                    "1":"<p>The Violent Incident Debriefing Training Module is presented as a Video PowerPoint document with “live” embedded videos.  There are two versions of the Training Module – one designed for on-line training, and the other designed for instructor-led presentations. Both versions are available in English and French.</p>",
+                                                                    "2":"<p><b>NOTE:</b>Boards who wish to download and add this course to their Learning Management System for tracking of employees and convenience of access should click here: <span class='inline-flex group flex '><span class=' group-hover:hidden  text-headinglinkcolor'>Download</span>",
+                                                                    "3":"<span class=' hidden group-hover:block '>",
+                                                                    "4":"<a class=' px-2 text-headinglinkcolor ' href='https://drive.google.com/uc?export=download&id=14DqRYzm5YFerGQXZjbzOXdCx9Qr_JmdY'>Online</a>",
+                                                                    "5":"<a class=' px-2 text-headinglinkcolor ' href='https://drive.google.com/uc?export=download&id=1VDrMnfvobeUDIg4n4ZLF0XLk665j4gkM'>Instructor Led</a>",
+                                                                    "6":"</span></span></p>"
+                                                                },
+                                                                "footer":"*If any of the content in this course causes stress for the participant, please contact the Employee Assistance Plan for your Board."
+                                    
+                                        }
+                        } ,
+                        "onlinetraining":
+                        {
+      
+                          "title":"OnLine Training",
+                          "content":
+                          {
+                               
+                                      "body":
+                                      {
+                                        "length":"5",
+                                        "0":"<p>The On-line Training Module will cover definitions, the purpose of debriefing of a critical incident, the legislative mandate, the need for post-incident strategies, key post-incident strategies, re-entry plans, staff/student attitudes and who should attend debriefing meetings. A scenario of an incident will be described and two types of debriefing meetings will be presented by live video. This will be followed by a quiz (question slide – pause – answer slide) highlighting the key concepts of Violent Incident Debriefing.</p>",
+                                        "1":"<p>The Online Module is intended for individual use and can be accessed by clicking directly on the video below.</p>",
+                                        "2":"<p>The On-line Module is accompanied by three downloadable documents, which appear immediately below the video on this screen:</p>",
+                                        "3":"<span  ><ul class=' list-disc list-inside'><li>Checklist for immediate staff debriefings;</li><li>Checklist for follow-up staff debriefings;</li><li>Debriefing Tip Sheet.</li></ul></span>",
+                                        "4":"<p>The course is 52 minutes in length and must be completed once started.</p>"
+                                      },
+                                      "videotitle":"Violent Incident Debriefing Training Module - On-Line Version",
+                                      "videoid":"k1acYfuqL7MMZhsx6Wp",
+                                      "downloads_title":"Downloads",
+                                      "file_names":
+                                      {
+                                          "0":"Checklist-1-Immediate-Debriefing-After-a-Critical-Incident.docx",
+                                          "1":"Checklist-2-Follow-up-Debriefing-After-a-Critical-Incident.docx",
+                                          "2":"Tip-Sheet.docx"
+                                      },
+                                      "file_title":
+                                      {
+                                          "0":"Checklist 1 - Immediate Debriefing After a Critical Incident",
+                                          "1":"Checklist 2- Follow-up Debriefing - After a Critical Incident",
+                                          "2":"Tip Sheet"
+                                      }
+                
+                          }     
+      
+                        },
+                        "instructorledtraining":
+                        {
+
+                            "title":"Instructor-Led Training",
+                            "content":
+                            {
+                               
+                                      "body":
+                                      {
+                                        "length":"5",
+                                        "0":"<p>The <b>Instructor-led Training Module</b> covers the same material as the On-line Module, but affords the instructor the ability to mute the music and narration. It allows the instructor to pause the presentation at any time to facilitate group discussion.</p>",
+                                        "1":"<p>The Quiz slides are retained, giving the instructor a variety of options: skip the Quiz slides, distribute hard copies of the Quiz, collect and mark individually; distribute hard copies of the Quiz, display questions on the screen, collect and mark individually; distribute hard copies of the Quiz, display questions on the screen, display answers on the screen for group marking; etc.</p>",
+                                        "2":"<p>The Instructor-led Module is intended for group use. Instructors can access the course by clicking directly on the video below.</p>",
+                                        "3":"<p>The Instructor-Led Module is accompanied by six downloadable documents, which appear immediately below the video on this screen:</p>",
+                                        "4":"<span  ><ul class=' list-disc list-inside'> <li>Checklist for immediate staff debriefings.</li><li>Checklist for follow-up staff debriefings.</li><li>Debriefing Tip Sheet.</li><li>Evaluation Form</li><li>Debriefing Quiz (no answers)</li><li>Debriefing Quiz (with answers)</li></ul></span>",
+                                        "5":"<p> The module is 52 minutes in length. Instructors are, however, encouraged topause the presentation at appropriate junctures to enable group discussion and questions. This will result in increased time to deliver the course.</p>"
+                                      },
+                                      "videotitle":"Violent Incident Debriefing Training Module - Instructor-Led Version",
+                                      "videoid":"k65rAMCHuQJAXKsx7BW",
+                                      "downloads_title":"Downloads",
+                                      "file_names":
+                                      {
+                                          "0":"Checklist-1-Immediate-Debriefing-After-a-Critical-Incident.docx",
+                                          "1":"Checklist-2-Follow-up-Debriefing-After-a-Critical-Incident.docx",
+                                          "2":"Tip-Sheet.docx",
+                                          "3":"Evaluation-Violent-Incident-Debriefing.docx",
+                                          "4":"Debrief-Quiz-No-Answers.docx",
+                                          "5":"Debrief-Quiz-With-Answers.docx"
+                                      },
+                                      "file_title":
+                                      {
+                                          "0":"Checklist 1 - Immediate Debriefing After a Critical Incident",
+                                          "1":"Checklist 2 - Follow-up Debriefing After a Critical Incident",
+                                          "2":"Tip Sheet",
+                                          "3":"Evaluation - Violent Incident Debriefing",
+                                          "4":"Debrief-Quiz-No-Answers",
+                                          "5":"Debrief Quiz - With Answers"
+                                      }
+                                      
+                  
+                            }     
+      
+                        },
+                        "contactus":
+                        {
+                            "name": "Name",
+                            "email": "Email Address",
+                            "organization":"Board/Organization",
+                            "position":"Position",
+                            "phone"   :"Phone Number",
+                            "message" :"Message",
+                            "placeholder":"Please enter your message here"
+
+                        },
+                        "producedby":"This training module was produced by Addvent 10 Management Inc. and the Ontario Education Services Corporation and C to C Productions for the Ontario Ministry of Education 2018.",
+                        "footer":"Copyright: Addvent 10 Management Inc. 2018. All rights reserved." 
+
+                                        
+
+            }     
+
+    },            
+   "menus":
+            {
+                            "mainmenu":
+                            {
+                                "violentincident": "Violent Incident",
+                                "debriefingtrainingmodule":"Debriefing Training Module",
+                                "home":"Home",
+                                "onlinetraining":"Online Training",
+                                "instructorledtraining":"Instructor Led Training",
+                                "contactus":"Contact Us",
+                                "menugap":"8"
+                            }
+
+           }
+}  
